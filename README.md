@@ -2,7 +2,7 @@
 
 ## Before starting
 1. All code and data contained within this repository are released under the CC BY-NC-SA License. 
-2. Because of GISAID [terms of use](https://www.gisaid.org/registration/terms-of-use/), sequence data are not provided. All sequence identifiers are provided and sequences can be downloaded from [NCBI](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) or [GISAID](https://www.gisaid.org/).
+2. Because of GISAID [terms of use](https://www.gisaid.org/registration/terms-of-use/), sequence data are not provided. Sequences can be downloaded from [NCBI](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) or [GISAID](https://www.gisaid.org/).
 
 ## Repository structure and usage
 The structure of this repository is shown below. 
@@ -19,16 +19,14 @@ The structure of this repository is shown below.
 ├── 4. GLM analysis (Fig 5)
 │   ├── phylogenetic_analysis
 │   └── phylogeographic_analysis
-├── Acknowledgement table
+├── Acknowledgement_table
 ├── README.md
 ```
 
 # Phylogenetic analyses
-## Note
 Genetic sequences have been scrubbed from BEAST XML files because of GISAID [terms of use](https://www.gisaid.org/registration/terms-of-use/).
 
 # Phylogeographic analyses
-## Note
 Before running the XML files, a file of empirical posterior trees needs to be obtained and the filenames of the empirical tree files in the XML files may need to be modified. Such an empirical tree file can be obtained from the analyses inside `phylogenetic_analysis/` folder.
 
 <h1> License </h1>
