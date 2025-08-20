@@ -1,4 +1,4 @@
-# Bidirectional global source-sink dynamics of dengue viruses and epidemic establishment in non-endemic areas
+# Bidirectional source-sink dynamics of dengue viruses and epidemic establishment in non-endemic areas
 
 ## Before starting
 1. All code and data contained within this repository are released under the CC BY-NC-SA License. 
