@@ -1,4 +1,4 @@
-# Bidirectional source-sink dynamics of dengue viruses and epidemic establishment in non-endemic areas
+# Global source-sink dynamics of dengue viruses and epidemic establishment in areas on the fringe of endemic transmission
 
 ## Before starting
 1. All code and data contained within this repository are released under the CC BY-NC-SA License. 
@@ -7,16 +7,16 @@
 ## Repository structure and usage
 The structure of this repository is shown below. 
 ```
-├── 1. Global analysis (Fig 2)
+├── 1. Global analysis
 │   ├── phylogenetic_analysis
 │   └── phylogeographic_analysis
-├── 2. Annual analysis (Fig 3)
+├── 2. Annual analysis
 │   ├── phylogenetic_analysis
 │   └── phylogeographic_analysis
-├── 3. China analysis (Fig 4)
+├── 3. China analysis
 │   ├── phylogenetic_analysis
 │   └── phylogeographic_analysis
-├── 4. GLM analysis (Fig 5)
+├── 4. GLM analysis
 │   ├── phylogenetic_analysis
 │   └── phylogeographic_analysis
 ├── Acknowledgement_table
