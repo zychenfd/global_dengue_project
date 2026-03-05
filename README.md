@@ -2,32 +2,27 @@
 
 ## Before starting
 1. All code and data contained within this repository are released under the CC BY-NC-SA License. 
-2. Because of GISAID [terms of use](https://www.gisaid.org/registration/terms-of-use/), sequence data are not provided. Sequences can be downloaded from [NCBI](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) or [GISAID](https://www.gisaid.org/).
+2. Because of GISAID [terms of use](https://www.gisaid.org/registration/terms-of-use/), sequence alignment data are not provided. Sequences can be downloaded from [NCBI](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) or [GISAID](https://www.gisaid.org/).
 
 ## Repository structure and usage
 The structure of this repository is shown below. 
 ```
-├── 1. Global analysis
-│   ├── phylogenetic_analysis
-│   └── phylogeographic_analysis
-├── 2. Annual analysis
-│   ├── phylogenetic_analysis
-│   └── phylogeographic_analysis
-├── 3. China analysis
-│   ├── phylogenetic_analysis
-│   └── phylogeographic_analysis
-├── 4. GLM analysis
-│   ├── phylogenetic_analysis
-│   └── phylogeographic_analysis
+├── data
+│   ├── epi_data
+│   ├── genomic_data
+│   └── geo_data
+├── code
+├── phylogenetic_xml
+├── phylogeography_xml
 ├── Acknowledgement_table
 ├── README.md
 ```
 
 # Phylogenetic analyses
-Genetic sequences have been scrubbed from BEAST XML files because of GISAID [terms of use](https://www.gisaid.org/registration/terms-of-use/).
+Genetic sequences have been scrubbed from BEAST XML files because of GISAID [terms of use](https://www.gisaid.org/registration/terms-of-use/), but we provided all sequence identifiers inside `data/genomic_data` folder.
 
 # Phylogeographic analyses
-Before running the XML files, a file of empirical posterior trees needs to be obtained and the filenames of the empirical tree files in the XML files may need to be modified. Such an empirical tree file can be obtained from the analyses inside `phylogenetic_analysis/` folder.
+Before running the XML files, a file of empirical posterior trees needs to be obtained and the filenames of the empirical tree files in the XML files may need to be modified. Such an empirical tree file can be obtained from the analyses inside `phylogenetic_xml/` folder.
 
 <h1> License </h1>
 <h4>CC BY-NC-SA 4.0 </h4>
@@ -42,4 +37,4 @@ Noncommercial means not primarily intended for or directed towards commercial ad
 
 SA: Adaptations must be shared under the same terms.
 
-Copyright (c) 2025 Zhiyuan Chen
+Copyright (c) 2026 Zhiyuan Chen
