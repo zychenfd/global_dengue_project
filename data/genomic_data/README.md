@@ -1,4 +1,4 @@
-# Genomic_data
+# Sequence accession ID used in differenet analyses
 
 ## Note
 - Accession_ID_denvX_global_even: for global phylogenetic and phylogeographic analyses under spatially even sub-sampling scheme.
